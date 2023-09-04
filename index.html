@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proiect</title>
+</head>
+
+<body>
+
+    <div class="web-scraping">
+        <button onclick="fetchQuotes()">Adu citatele in tabel</button>
+        <table id="quotesTable"></table>
+    </div>
+
+    <div class="json-server">
+        <input type="text" id="author-input">
+        <input type="text" id="quote-input">
+        <button onclick="insertInJsonServer()">Insereaza in JSON-SERVER</button>
+        <table id="jsonServerTable"></table>
+    </div>
+
+    <div class="json-server">
+        <input type="text" id="delete-input">
+        <button onclick="deleteInJsonServer()">Sterge in JSON-SERVER</button>
+        <table id="jsonServerDeleteTable"></table>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
